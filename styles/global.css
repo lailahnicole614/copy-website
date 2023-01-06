@@ -30,12 +30,27 @@ header {
     border: 1px solid black;
     height: 50vh;
 }
+.amazon {
+    border: 1px solid black;
+}
 
 .wrapper {
     display: grid;
-    grid-template-columns: 200px 200px 200px;
-    border: 1px solid black;
-    height: 50vh;
+    grid-template-columns: 300px 300px 300px;
+    border: 100px solid black;
+    height: 200vh;
+}
+.img {
+    width: 200px;
+    height: 700px;
+}
+.img-two {
+    width: 200px;
+    height: 700px;
+}
+.img-three {
+    width: 200px;
+    height: 700px;
 }
 .wrapper div {
     border: 1px solid black;
