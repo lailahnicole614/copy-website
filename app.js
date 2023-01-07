@@ -6,7 +6,7 @@ const searchBtn = document.getElementById('search-button');
 /* State */
 /* Events */
 searchBtn.addEventListener('click', () => {
-    nameDisplay.textContent = searchInput.value;
+    // nameDisplay.textContent = searchInput.value;
     searchInput.value = '';
 });
 /* Display Functions */
