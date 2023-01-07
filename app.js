@@ -5,11 +5,10 @@ const searchBtn = document.getElementById('search-button');
 
 /* State */
 /* Events */
-Display: searchBtn.addEventListener('click'),
-    () => {
-        nameDisplay.textContent = searchInput.value;
-        searchInput.value = '';
-    };
+searchBtn.addEventListener('click', () => {
+    // nameDisplay.textContent = searchInput.value;
+    searchInput.value = '';
+});
 /* Display Functions */
 
 // (don't forget to call any display functions you want to run on page load!)
